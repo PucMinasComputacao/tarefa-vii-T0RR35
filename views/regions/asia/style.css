@@ -1,0 +1,72 @@
+.controle {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header{
+    background: #E0A51E;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    opacity: 95%;
+}
+
+.logo{
+    position: absolute; 
+    width: 270px; 
+    height: auto;
+    padding-left: 20px;
+    top: 20%;
+}
+
+.center{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body{
+    background: #FCE5A2;
+}
+
+.product-card-img {
+    height: 200px;
+    /* Altura fixa para as imagens dos produtos */
+    object-fit: cover;
+}
+
+.col{
+    transition: transform 0.3s ease; /* animação suave */
+    cursor: pointer;
+}
+
+.card{
+    background: #FFF7D1;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.col:hover {
+    transform: scale(1.1);
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.mb-5{
+    padding-bottom: 0.000001vh;
+}
+
+.card-title{
+    margin: 0 0;
+}
